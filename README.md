@@ -1,4 +1,14 @@
-# Sugar RPi OS
+<div align="center">
+	<img src="assets/sugarlabs.png" height="50">
+</div>
+<br>
+<div align="center">
+	<img src="assets/sugar_rpi.png">
+</div>
+<br>
+
+
+# Sugar OS for Raspberry Pi
 
 This repository lets you generate a Raspberry Pi OS equipped with Sugar shell and add some additional activities.
 
@@ -46,5 +56,9 @@ In rpi-imager, under "Operating System" select "Use custom" option and then sele
 
 ## Development
 
-You can check the original repo [here](https://github.com/RPi-Distro/pi-gen/) to learn more about the structure and how to build upon it.\
-`Stage3` is concerned with the setup of Sugar on top of the RPi-Lite OS.
+Check [pi-gen](https://github.com/RPi-Distro/pi-gen) to understand the structure and function of each step.
+
+`Stage0` to `Stage2` builds the Raspberry Pi *Lite* OS\
+`Stage3` is concerned with the setup of Sugar on top of it and then export the image.
+
+Edit `Stage3` to add features/improvements
