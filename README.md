@@ -1,3 +1,5 @@
+The parent repository is [pi-gen](https://github.com/RPi-Distro/pi-gen/) and history is cleaned at commit `dca93d2` to have a clean start.
+
 # Sugar RPi OS
 
 This repository lets you generate a Raspberry Pi OS equipped with Sugar shell and add some additional activities.
