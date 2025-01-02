@@ -20,6 +20,17 @@ This repository lets you generate a Raspberry Pi OS equipped with Sugar shell an
 - Turtle Art
 - Default activities (Calculate, Chat, Image Viewer, Pippy, Read, Terminal, Write and Browse)
 
+## How to install
+1. Download the OS from here: [SugarRPiOS-v1.0.0.zip](https://people.sugarlabs.org/~aayush/Sugar-RPi-OS/os/SugarRPiOS-v1.0.0.zip).
+2. Download and install [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
+3. Open the Raspberry Pi Imager
+       a. In the "Raspberry Pi Device" option select your Raspberry Pi model.
+       b. In the "Operating System" option, scroll down, select "Use Custom" and then select the downloaded OS.
+       c. In the "Storage" option select your micro SD card (it will be formatted)
+       d. Click Next. Click on "Yes" when it prompts to configure the OS.
+       e. Enter desired username and password (default username is 'pi' and password is 'pi')
+       f. Continue to flash the OS.  
+4. Once done, your micro SD card can be put into a Raspberry Pi and booted from.
 
 ## Generating OS
 You must have *"Raspberry Pi Lite OS 32-bit OS"* installed on your Raspberry Pi to generate an OS. Yes, you need a Raspberry Pi to build an OS.
@@ -45,14 +56,6 @@ sudo apt-get install coreutils quilt parted qemu-user-static debootstrap zerofre
 dosfstools libarchive-tools libcap2-bin grep rsync xz-utils file git curl bc \
 gpg pigz xxd arch-test
 ```
-
-
-## Installation of the sugar OS
-
-After the zip image is built under `deploy` folder. The image can then be flashed onto a microSD card using [rpi-imager](https://www.raspberrypi.com/software). 
-
-In rpi-imager, under "Operating System" select "Use custom" option and then select the generated OS to flash. Username and password is also required to be set under Advanced option in the rpi-imager when prompted.
-
 
 ## Development
 
