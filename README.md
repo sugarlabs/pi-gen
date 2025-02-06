@@ -21,7 +21,7 @@ This repository lets you generate a Raspberry Pi OS equipped with Sugar shell an
 - Default activities (Calculate, Chat, Image Viewer, Pippy, Read, Terminal, Write and Browse)
 
 ## How to install
-1. Download the OS from here: [SugarRPiOS-v1.0.0.zip](https://people.sugarlabs.org/~aayush/Sugar-RPi-OS/os/SugarRPiOS-v1.0.0.zip).
+1. Download the OS from the [releases](https://github.com/sugarlabs/pi-gen/releases) page or from here: [SugarRPiOS-v1.0.0.zip](https://people.sugarlabs.org/aayush/Sugar-RPi-OS/os/SugarRPiOS-v1.0.0.zip).
 2. Download and install [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
 3. Open the Raspberry Pi Imager
        a. In the "Raspberry Pi Device" option select your Raspberry Pi model.
