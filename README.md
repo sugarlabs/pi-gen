@@ -24,12 +24,12 @@ This repository lets you generate a Raspberry Pi OS equipped with Sugar shell an
 1. Download the OS from the [releases](https://github.com/sugarlabs/pi-gen/releases) page or from here: [SugarRPiOS-v1.0.0.zip](https://people.sugarlabs.org/aayush/Sugar-RPi-OS/os/SugarRPiOS-v1.0.0.zip).
 2. Download and install [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
 3. Open the Raspberry Pi Imager
-       a. In the "Raspberry Pi Device" option select your Raspberry Pi model.
-       b. In the "Operating System" option, scroll down, select "Use Custom" and then select the downloaded OS.
-       c. In the "Storage" option select your micro SD card (it will be formatted)
-       d. Click Next. Click on "Yes" when it prompts to configure the OS.
-       e. Enter desired username and password (default username is 'pi' and password is 'pi')
-       f. Continue to flash the OS.  
+   1. In the "Raspberry Pi Device" option select your Raspberry Pi model.
+   2. In the "Operating System" option, scroll down, select "Use Custom" and then select the downloaded OS.
+   3. In the "Storage" option select your micro SD card (it will be formatted)
+   4. Click Next. Click on "Yes" when it prompts to configure the OS.
+   5. Enter desired username and password (default username is 'pi' and password is 'pi')
+   6. Continue to flash the OS.  
 4. Once done, your micro SD card can be put into a Raspberry Pi and booted from.
 
 ## Generating OS
